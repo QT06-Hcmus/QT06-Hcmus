@@ -62,6 +62,18 @@ A lightweight browser-based editor for composing relational algebra expressions 
 
 [View source](https://github.com/QT06-Hcmus/Relational-Algebra-Editor) · [Live demo](https://dsqh-nhqt.vercel.app)
 
+### Cooperative Farm Game
+
+A server-authoritative real-time multiplayer web adaptation of a strategy board game for 6–10 players.
+
+- Separated a pure TypeScript game engine from the React client and Fastify/Socket.IO server
+- Implemented private per-player state views, deterministic seeded game logic, room persistence, reconnection, idempotent actions, rate limiting, and bots
+- Added 101 passing unit and integration tests, a Playwright E2E suite, Docker support, and a Railway deployment
+
+**Stack:** TypeScript, React, Vite, Fastify, Socket.IO, SQL.js, Vitest, Playwright, Docker
+
+[Source code](https://github.com/QT06-Hcmus/cooperative-farm-game-) · [Live demo](https://hop-tac-xa-production.up.railway.app/)
+
 ## Currently Improving
 
 - Automated testing and reliable CI/CD pipelines
